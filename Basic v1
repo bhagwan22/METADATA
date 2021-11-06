@@ -16,3 +16,6 @@ The declarative or file-based asynchronous Metadata API. deploy() and retrieve()
 ex: salesforce extension for vs code
 
 2. CRUD Metadata API: calls act upon the metadata components in a manner similar to the way synchronous API calls in the enterprise WSDL act upon objects. 
+
+
+https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_quickstart_retrieve.htm
