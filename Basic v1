@@ -1,3 +1,6 @@
 ## PREREQUISITE
 - To use Metadata API, your organization must use Enterprise Edition, Unlimited Edition, Performance Edition, or Developer Edition. 
 - user must have the API Enabled permission to have access to metadata components.
+- To use Metadata API, your organization must use Enterprise Edition, Unlimited Edition, Performance Edition, or Developer Edition. 
+BUT
+ISV partners can request Metadata API access to Professional Edition orgs for apps that have passed AppExchange Security Review.
