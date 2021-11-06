@@ -1,1 +1,3 @@
-To use Metadata API, your organization must use Enterprise Edition, Unlimited Edition, Performance Edition, or Developer Edition. 
+## PREREQUISITE
+- To use Metadata API, your organization must use Enterprise Edition, Unlimited Edition, Performance Edition, or Developer Edition. 
+- user must have the API Enabled permission to have access to metadata components.
