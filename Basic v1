@@ -4,3 +4,15 @@
 - To use Metadata API, your organization must use Enterprise Edition, Unlimited Edition, Performance Edition, or Developer Edition. 
 BUT
 ISV partners can request Metadata API access to Professional Edition orgs for apps that have passed AppExchange Security Review.
+- Users must have the Customize Application permission to create, update, and delete metadata records. 
+Thereafter, users with the Modify Metadata Through Metadata API Functions permission can edit metadata (including Apex) through Metadata API even if they don’t also have the Modify All Data permission. 
+-  Modify Metadata Through Metadata API Functions allows deployment of Apex metadata, but it doesn’t allow some Apex development and debugging features that still require the Modify All Data permission.
+
+
+
+## Metadata API supports both file-based and CRUD-based development.
+1. file-Based Development:
+The declarative or file-based asynchronous Metadata API. deploy() and retrieve() operations deploy or retrieve a .zip file that holds components in a set of folders, and a manifest file named package.xml. 
+ex: salesforce extension for vs code
+
+2. CRUD Metadata API: calls act upon the metadata components in a manner similar to the way synchronous API calls in the enterprise WSDL act upon objects. 
